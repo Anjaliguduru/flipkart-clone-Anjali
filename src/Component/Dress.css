@@ -1,0 +1,10 @@
+.dress-main{
+    display: flex;
+}
+
+@media (max-width:768px){
+.dress-main{
+    
+        display: block;
+    }
+}

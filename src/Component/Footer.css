@@ -1,0 +1,38 @@
+.Footer_Head{
+    display: flex;
+    justify-content: space-evenly;
+}
+.Footer_main{
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+}
+.foterr_last{
+    display: flex;
+    justify-content: space-evenly;
+}
+.footer_last_main{
+    display: flex;
+}
+.icons{
+    margin-top: 15px;
+    margin-right: 5px;
+}
+.footer_img img{
+    margin-top: 15px;
+
+}
+.Footer{
+    color: white;
+    background-color: black;
+}
+@media (max-width:768px) {
+    .foterr_last{
+        display: none;
+    }
+  
+    .one{
+        display: none;
+    }
+    
+}
