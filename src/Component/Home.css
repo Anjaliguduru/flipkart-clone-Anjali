@@ -55,7 +55,7 @@
     color: gainsboro;
 }
 .slide img{
-    width: 1500px;
+    width: 100%;
 }
 
 
@@ -75,7 +75,8 @@
         margin-top: -5px;
     }
     .slide img{
-        width: 400px;
+        width: 360px;
+        align-items: center;
     }
     .Home2 img{
         width: 100px;
@@ -83,4 +84,10 @@
     /* .title{
         display: none;
     } */
+    .mobile_head{
+        width: 140px;
+    }
+    .mobile_img img{
+        width: 130px;
+    }
 }
